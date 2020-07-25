@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<body>
+  <section id="main">
+    <section class="top navbar-dark">
+      <div class="nav-title">
+        <a class="navbar-brand" href="michaelmoshui.github.io/Michael">Michael Mo</a>
+        <button class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <ul class="nav justify-content-center" id="navbarContent">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://michaelmoshui.github.io/Simon-game">Simon Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://michaelmoshui.github.io/Simon-game">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://MoshuiMusic.github.io/Moshui/">Moshui Music</a>
+        </li>
+      </ul>
+      <hr class="line">
+    </section>
+    <section class="game">
+      <div class="title">
+        <h1 id="head">Simon Game<br><em>Press any key to start</em></h1>
+        <button>Show Instructions</button>
+        <ol class="instruction">
+          <li>Right upon starting, a random button will flash; press that button.</li>
+          <br>
+          <li>Another random button will flash again. This time, click the previous button and then the button that just flashed.</li>
+          <br>
+          <li>Another random button will flash again. Repeat the previous clicking pattern before clicking on the button that just flashed.</li>
+          <br>
+          <li>This process repeats until your click on a worng button.</li>
+          <br>
+          <li>After one successful clicking routine you will level up. Best of luck!</li>
+        </ol>
+      </div>
+      <div class="set">
+        <button class="button" id="green">G</button>
+        <button class="button" id="red">R</button>
+        <button class="button" id="yellow">Y</button>
+        <button class="button" id="blue">B</button>
+    </section>
+  </section>
+
+  <section id="footer">
+    <div class="container-fluid">
+      <a href="https://www.instagram.com/michaelmoshui/">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UC67zO7P_XXC3xCL_Csne1pg">
+        <i class="fab fa-youtube fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/michael.mo.5249">
+        <i class="fab fa-facebook-square fa-2x"></i>
+      </a>
+      <p>Michael's Website</p>
+    </div>
+  </section>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/4919595660.js" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

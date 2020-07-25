@@ -1,0 +1,169 @@
+/* General stuff */
+body {
+  text-align: center;
+}
+
+button {
+  outline: none;
+}
+
+#main {
+  background-color: #0f4c75;
+}
+
+/* navigation bar */
+.top {
+  margin-bottom: 30px;
+  padding: 60px 20% 30px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.nav-title {
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 712px) {
+  .navbar-brand {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 633px) {
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+}
+
+.navbar-toggler {
+  vertical-align: 50%;
+}
+
+@media (max-width: 920px) {
+  #navbarContent {
+    display: block;
+  }
+}
+
+.nav-item {
+  border-left: 1px solid rgb(255, 255, 255, 0.6);
+  border-right: 1px solid rgb(255, 255, 255, 0.6);
+}
+
+.nav-link {
+  margin: auto 30px auto;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  opacity: 0.75;
+}
+
+.line {
+  margin: 30px auto 0;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+}
+
+.game {
+  padding-bottom: 120px;
+}
+
+/* title */
+#head {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  #head {
+    font-size: 2.5rem;
+  }
+}
+
+.title button{
+  color: white;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  height: 60px;
+  width: 350px;
+  margin-top: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.8);
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.instruction {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 30% 0;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+/* buttons */
+.button {
+  display: inline-block;
+  height: 240px;
+  width: 240px;
+  border: 10px solid black;
+  border-radius: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5.5rem;
+  color: black;
+  margin: 60px 30px 0;
+}
+
+.pressed {
+  box-shadow: 0 0 20px grey;
+  background-color: grey;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#footer {
+  background-color: white;
+  padding: 50px 24% 200px;
+}
+
+#footer a {
+  padding: 0 2.5% 0;
+  color: black;
+}
+
+#footer a:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+#footer p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3%;
+  color: black;
+}
