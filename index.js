@@ -37,6 +37,11 @@ $(document).keydown(function (){
 $(".button").click(function () {
     var chosenColour = $(this).attr("id");
     userPattern.push(chosenColour);
+    if (!start) {
+      nextSequence();
+      start = true;
+      userPattern[0] = clickPattern[0];
+    }
     checkAnswer(userPattern.length - 1); // Checks answer of the current index in userPattern
     if (start) { // If answer is correct
       makeSound(chosenColour);
