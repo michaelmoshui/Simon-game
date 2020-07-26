@@ -65,7 +65,7 @@ function checkAnswer (currentLevel) { // currentLevel = the index of the click
     setTimeout(function () {
       $("#main").css("background-color", "#0f4c75");
     }, 100);
-    $("#head").html("Game over.<br>You have reached level " + level + "." + "<br><em>Press any key to restart.</em>");    
+    $("#head").html("Game over.<br>You have reached level " + level + "." + "<br><br><em>Press any key to restart.</em>");    
     startOver(); // Starts over
   }
 
