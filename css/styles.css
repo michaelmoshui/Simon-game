@@ -42,16 +42,6 @@ button {
   vertical-align: 50%;
 }
 
-@media (max-width: 1110px) {
-  #navbarContent {
-    display: block;
-  }
-  
-  .nav-item {
-    border: none;
-  }
-}
-
 .nav-item {
   border-left: 1px solid rgb(255, 255, 255, 0.6);
   border-right: 1px solid rgb(255, 255, 255, 0.6);
@@ -66,6 +56,16 @@ button {
 .nav-link:hover {
   color: white;
   opacity: 0.75;
+}
+
+@media (max-width: 1200px) {
+  #navbarContent {
+    display: block;
+  }
+  
+  .nav-item {
+    border: none;
+  }
 }
 
 .line {
