@@ -28,6 +28,7 @@ var level = 0;
 // Press any key to start
 $(document).keydown(function (){
   if (!start) {
+    level = -1;
     nextSequence();
     start = true;
   }
@@ -38,6 +39,7 @@ $(".button").click(function () {
     var chosenColour = $(this).attr("id");
     userPattern.push(chosenColour);
     if (!start) {
+      level = -2;
       nextSequence();
       start = true;
       userPattern[0] = clickPattern[0];
