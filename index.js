@@ -77,8 +77,8 @@ function checkAnswer (currentLevel) { // currentLevel = the index of the click
 function nextSequence () {
   userPattern = []; // Clear User's previous clicking pattern
   level++; // level up
-  if (level === 100) { // Game ends when user reaches 100. Let's ignore reality :)
-    $("#head").html("Congradulation!<br>You have achieved the impossible!<br><br>Press any key to restart.");
+  if (level === 15) { // Game ends when user reaches 15
+    $("#head").html("Congradulation!<br>You have reached level 15!<br><br>Press any key to restart.");
     startOver();
   } else { // Before reaching level 100
     $("#head").text("Level " + level); // Display level
