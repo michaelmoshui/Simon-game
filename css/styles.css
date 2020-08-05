@@ -58,7 +58,7 @@ button {
   opacity: 0.75;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1473px) {
   #navbarContent {
     display: block;
   }
